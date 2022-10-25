@@ -37,14 +37,14 @@ padding: 10px;
 }
 
 .navbar ul li a{
-    text-decoration: none;
+    text-decoration:none ;
     color: #fff;
 }
-.active, .navbar ul li :hover{
+ .navbar ul li :hover{
     display: block;
     position: absolute;
     background-color: #2bab0d;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 
@@ -65,14 +65,8 @@ p{
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color:black;
-    height: auto;
-    width: 100vm;
-    font-family: "open sans";
-    padding-top: 40px;
-    color: #fff;
- }
+
+}
 
 
 
