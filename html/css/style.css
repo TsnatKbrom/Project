@@ -1,0 +1,67 @@
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+      background-image: none;
+      background-size: cover ;
+      background-position: center;
+      box-sizing: border-box;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 150px;
+    margin: 20px;
+   float: left;
+}
+.navbar{
+background:rgb(0,100, 0);
+text-align: center;
+position: sticky;
+top: 0;
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+
+.navbar ul li{
+width: 120px;
+margin: 15px;
+padding: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, navbar ul li :hover{
+    background-color: #2bab0d;
+    border-radius: 5px;
+}
+
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+ }
+
+
+
+
+
+
+
