@@ -52,7 +52,18 @@ p{
     font-family: 'Dancing Script', cursive;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 
 /* footer{
     background-color:#000;
@@ -73,7 +84,7 @@ body{
     }
     
     .footer{
-    background:#000;
+        background:rgb(0,100, 0);
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
