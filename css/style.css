@@ -1,8 +1,13 @@
 
 *{  margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+.logo{
+    float: left;
+    margin: 5px 15px
+  }
 
 body{
       background-image: none;
@@ -11,15 +16,35 @@ body{
       box-sizing: border-box;
       font-family: Georgia, 'Times New Roman', Times, serif;
 }
- 
+
 .navbar{
 background:rgb(0,100, 0);
 text-align: center;
+position: sticky;
+top: 0;
 }
 
 .navbar ul{
     display: inline-flex;
     list-style: none;
+    color:#fff;
+}
+
+.navbar ul li{
+width: 120px;
+margin: 15px;
+padding: 10px;
+}
+
+.navbar ul li a{
+    text-decoration:none ;
+    color: #fff;
+}
+ .navbar ul li :hover{
+   /* display: block;
+    position: absolute;*/
+    background-color: #2bab0d;
+    padding: 10px;
 }
 
 
@@ -29,15 +54,19 @@ p{
 }
 
 
-
+footer{
+    background-color:#000;
+    color:#fff;
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px;
+   
+}
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
- }
 
-
-
+}
 
 
 
