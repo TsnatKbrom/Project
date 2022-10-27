@@ -7,10 +7,12 @@
 .logo{
     text-indent: #fff;
     background: url(Media/logo.jpg);
-    width: 200px;
+    width: 150px;
     height:150px;
     float: left;
-    margin: 5px 15px
+    margin: 5px 15px;
+    border-radius:10px;
+
              
 
   }
@@ -59,19 +61,19 @@ p{
     font-family: 'Dancing Script', cursive;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*for the abpout page*/
 .column {
     float: left;
     width: 50%;
-
-
+    height: 600px;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
   /*try it*/
   input[type=text], select, textarea {
     width: 100%;
