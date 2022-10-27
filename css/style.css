@@ -63,16 +63,36 @@ p{
 }
 /*for the abpout page*/
 .column {
-    float: left;
-    width: 50%;
-    height: 600px;
+    width:50%;
+    height:70%;
+    padding:5em;
+    margin:2em;
   }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .row {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  
   }
+
+.img-row{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-column{
+    width:300px;
+    height:300px;
+    padding:5em;
+    margin:2em;
+}
+
+
+
 
   /*try it*/
   input[type=text], select, textarea {
