@@ -20,6 +20,7 @@
 body{
       background-image: none;
       background-size: cover ;
+      background-color: #f2f2f2;
       background-position: center;
       box-sizing: border-box;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,6 +31,7 @@ body{
 background:rgb(0,100, 0);
 text-align: center;
 position: sticky;
+height:fit-content;
 top: 0;
 }
 
@@ -82,13 +84,18 @@ p{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    margin:3em 3em 10em 1em;
 }
 
 .img-column{
-    width:300px;
-    height:300px;
-    padding:5em;
-    margin:2em;
+    display:flex;
+    flex-direction:column;
+    width:350px;
+    min-height:375px;
+    max-height:375px;
+    padding:1em;
+    border-radius:10px;
+  
 }
 
 
