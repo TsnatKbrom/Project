@@ -11,6 +11,8 @@
     height:150px;
     float: left;
     margin: 5px 15px
+             
+
   }
 
 body{
@@ -60,7 +62,7 @@ p{
 .column {
     float: left;
     width: 50%;
-    height: 100%;
+
 
   }
   
