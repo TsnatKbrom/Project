@@ -5,6 +5,10 @@
 }
 
 .logo{
+    text-indent: #fff;
+    background: url(Media/logo.jpg);
+    width: 200px;
+    height:150px;
     float: left;
     margin: 5px 15px
   }
