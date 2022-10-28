@@ -57,13 +57,15 @@ padding: 10px;
     background-color: #2bab0d;
     padding: 10px;
 }
+
 /* hero img*/
  .hero {
     width: 100%;
     /* Set a specific height */
     height:150px;
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient( #f2f2f2), url("Media/hero.jpg");
+    /* Use "linear-gradient" to add a darken background effect to the image (.jpg). This will make the text easier to read */
+  background-image: linear-gradient( #f2f2f2), url("Media/hero2jpg.jpg");
+
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -84,6 +86,23 @@ p{
     font-family: 'Dancing Script', cursive;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.columnhp {
+  width:50%;
+  height:70%;
+  padding:5em;
+  margin:2em;
+}
+
+.rowhp {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
 /*for the abpout page*/
 .column {
     width:50%;
