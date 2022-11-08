@@ -114,7 +114,7 @@ p{
 /*for the abpout page*/
 .columnabt {
      width:100%;
-     flex-direction: row;
+    flex-direction: row;
     height:70%;
     padding:5em;
     margin:2em; 
